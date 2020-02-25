@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 using System.Media;
-
+//Josiah Stanley, 2/25/2020 Weapon Checkout
 
 namespace Checkout
 {
