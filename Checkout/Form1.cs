@@ -31,13 +31,15 @@ namespace Checkout
         int bow;
         double cost;
         double tax;
-
         double tendered;
         double change;
         int orderNumber = 1;
         int lableSize = 434;
         int formSize = 440;
-        
+        const double SWORDPRICE = 100.10;
+        const double SHIELDPRICE = 89.99;
+        const double BOWPRICE = 67.99;
+
         //When cost button is pushed
         private void costButton_Click(object sender, EventArgs e)
         {
@@ -64,7 +66,7 @@ namespace Checkout
                 bow = Convert.ToInt16(bowInput.Text);
 
                 //Calculate cost
-                cost = (swords * 100.10) + (shields * 89.99) + (bow * 67.99);
+                cost = (swords * SWORDPRICE) + (shields * SHIELDPRICE) + (bow * BOWPRICE);
                 tax = cost * 0.13;
                 total = tax + cost;
                 
