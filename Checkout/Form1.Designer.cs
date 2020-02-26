@@ -182,7 +182,7 @@
             this.printButton.Name = "printButton";
             this.printButton.Size = new System.Drawing.Size(189, 35);
             this.printButton.TabIndex = 4;
-            this.printButton.Text = "Print Reciept";
+            this.printButton.Text = "Print Receipt";
             this.printButton.UseVisualStyleBackColor = false;
             this.printButton.Click += new System.EventHandler(this.printButton_Click);
             // 
